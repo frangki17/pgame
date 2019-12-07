@@ -1,0 +1,12 @@
+#latihan 5.3 : Dictionary
+
+#buat variabel dan beri nilai elemen
+dc = { "Kampus":"UMMU", "Prodi":"Info", "Lokasi":"Ternate",
+		"Tahun":2019 }
+print(dc["Tahun"])
+print(dc.get("Tahun"))
+
+#mengubah nilai(value) key "Tahun"
+dc["Tahun"]= 2020
+dc["Lokasi"]= "Sasa"
+print("Dictionary :", dc)
